@@ -9,6 +9,7 @@ use cortex_m_rt::entry;
 #[entry]
 fn main() -> ! {
     rtt_init_print!();
-    rprintln!("Hello World");
+    rprintln!("Hello Brent!");
+    rprintln!("Yours truly,\n\tMicrobit");
     loop {}
 }
